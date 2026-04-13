@@ -1,7 +1,7 @@
 <div align="center">
   <p>
-    <a href="#cineviz-ai---视频风格数据可视化工具-中文">简体中文</a> | 
-    <a href="#cineviz-ai---cinematic-analysis-english">English</a>
+    <a href="#cineviz-ai---一站式计量电影学分析工具-中文">简体中文</a> | 
+    <a href="#cineviz-ai---ALL-IN-ONE cinemetrics platform-english">English</a>
   </p>
   <p>
     <strong>Download (Local .exe software / 本地运行的 .exe 软件)</strong>
@@ -13,7 +13,7 @@
 
 ---
 
-# CineViz-AI - 视频风格数据可视化工具 (中文)
+# CineViz-AI - 一站式计量电影学分析工具
 
 <div align="center">
   <img src="assets/logo.png" alt="Logo" width="120" height="120">
@@ -68,7 +68,7 @@
 
 ---
 
-# CineViz-AI - Cinematic Analysis (English)
+# CineViz-AI - ALL-IN-ONE cinemetrics platform
 
 <div align="center">
   <img src="assets/logo.png" alt="Logo" width="120" height="120">
