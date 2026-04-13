@@ -1,7 +1,7 @@
 <div align="center">
   <p>
-    <a href="#cineviz-ai---cinematic-analysis-english">English</a> | 
-    <a href="#cineviz-ai---视频风格数据可视化工具-中文">简体中文</a>
+    <a href="#cineviz-ai---视频风格数据可视化工具-中文">简体中文</a> | 
+    <a href="#cineviz-ai---cinematic-analysis-english">English</a>
   </p>
   <p>
     <strong>Download (Local .exe software / 本地运行的 .exe 软件)</strong>
@@ -13,75 +13,16 @@
 
 ---
 
-# CineViz-AI - Cinematic Analysis (English)
-
-<div align="center">
-  <img src="public/logo.svg" alt="Logo" width="120" height="120">
-  <h2 align="center">CineViz-AI</h2>
-  <p align="center">
-    A powerful tool for cinematic rhythm and visual analysis, powered by AI.
-    <br />
-    <br />
-    <a href="https://LuN3cy.github.io/CineViz/"><strong>View Demo »</strong></a>
-  </p>
-</div>
-
-## 💡 Design Philosophy
-
-**CineViz-AI** is designed to bring cinemetrics into everyday creative workflows. We combine professional cinematic analysis methodologies with modern deep learning to provide an intuitive, high-performance platform for creators, researchers, and film enthusiasts.
-
-- **Metrology-driven**: Built on professional cinemetrics indicators like ASL (Average Shot Length) and MSL (Median Shot Length).
-- **Privacy-First**: All video processing and AI analysis happen locally on your machine. Your media never leaves your device.
-- **AI-Enhanced**: Deep integration with industry-standard models like TransNetV2 and MovieNet for automated shot boundary and scale detection.
-- **Interactive Visualization**: Transform abstract visual data into interactive timelines, color fingerprints, and dynamic charts.
-
-## ✨ Features
-
-### 1. Automated Shot Detection & Rhythm Analysis
-Powered by **TransNetV2**, it automatically detects hard cuts and transitions.
-- Calculates ASL and MSL automatically.
-- Generates cutting density charts to quantify cinematic rhythm.
-
-![Shot Detection](.trae-runtime/packaged_dist_75s.png)
-
-### 2. Visual Feature Extraction
-Frame-by-frame analysis of physical video attributes.
-- **Brightness** & **Saturation** dynamic curves.
-- **Color Fingerprint**: A unique visual summary of the film's entire color palette.
-
-![Visual Analysis](.trae-runtime/packaged_dist_45s.png)
-
-### 3. Intelligent Shot Scale Classification
-Uses **MovieNet** to classify each shot into categories like Close-up, Medium, or Wide shots.
-- Statistical distribution of shot types across the entire video.
-- Helps analyze spatial narrative preferences.
-
-### 4. Interactive Finetuning & Export
-Finetune AI results and export data for professional workflows.
-- Export to standard EDL for PR/Final Cut.
-- Export detailed CSV reports for academic research.
-
-## 🧠 Technical Models
-
-| Model | Usage | Core Technology |
-| :--- | :--- | :--- |
-| **TransNetV2** | Shot Boundary Detection | Temporal Convolutional Network |
-| **MovieNet** | Shot Scale Classification | Industry-standard Shot-Scale model |
-| **Depth-Anything-V2** | Depth Estimation | Monocular Depth Estimation |
-| **ONNX Runtime** | Inference Acceleration | High-performance inference engine |
-
----
-
 # CineViz-AI - 视频风格数据可视化工具 (中文)
 
 <div align="center">
-  <img src="public/logo.svg" alt="Logo" width="120" height="120">
+  <img src="assets/logo.png" alt="Logo" width="120" height="120">
   <h2 align="center">CineViz-AI</h2>
   <p align="center">
     基于计量电影学与深度学习的视频节奏与视觉分析工具。
     <br />
     <br />
-    <a href="https://LuN3cy.github.io/CineViz/"><strong>在线体验 »</strong></a>
+    <a href="https://github.com/LuN3cy/LuN3cy"><strong>网页精简版 »</strong></a>
   </p>
 </div>
 
@@ -101,14 +42,14 @@ Finetune AI results and export data for professional workflows.
 - 自动计算平均镜头长度 (ASL) 和中位镜头长度 (MSL)。
 - 生成剪辑密度图表，量化视频节奏。
 
-![镜头检测界面](.trae-runtime/packaged_dist_75s.png)
+![镜头检测界面](assets/shot-detection.png)
 
 ### 2. 视觉特征提取 (Visual Analysis)
 逐帧分析视频的物理属性，生成直观的视觉走势图。
 - **亮度 (Brightness)** 与 **饱和度 (Saturation)** 的动态分布曲线。
 - **色彩指纹 (Color Fingerprint)**: 将整部影片的色彩风格浓缩为一张独特的指纹图。
 
-![视觉分析界面](.trae-runtime/packaged_dist_45s.png)
+![视觉分析界面](assets/visual-analysis.png)
 
 ### 3. 智能景别识别 (Shot Scale Classification)
 利用 **MovieNet** 模型，自动对每一个镜头进行景别分类（特写、中景、远景等）。
@@ -128,6 +69,65 @@ Finetune AI results and export data for professional workflows.
 | **MovieNet** | 景别分类 | 电影工业级 Shot-Scale 识别模型 |
 | **Depth-Anything-V2** | 深度估计 | 高精度单目深度估计算法 |
 | **ONNX Runtime** | 模型推理加速 | 高性能跨平台推理引擎 |
+
+---
+
+# CineViz-AI - Cinematic Analysis (English)
+
+<div align="center">
+  <img src="assets/logo.png" alt="Logo" width="120" height="120">
+  <h2 align="center">CineViz-AI</h2>
+  <p align="center">
+    A powerful tool for cinematic rhythm and visual analysis, powered by AI.
+    <br />
+    <br />
+    <a href="https://github.com/LuN3cy/LuN3cy"><strong>Web Lite Version »</strong></a>
+  </p>
+</div>
+
+## 💡 Design Philosophy
+
+**CineViz-AI** is designed to bring cinemetrics into everyday creative workflows. We combine professional cinematic analysis methodologies with modern deep learning to provide an intuitive, high-performance platform for creators, researchers, and film enthusiasts.
+
+- **Metrology-driven**: Built on professional cinemetrics indicators like ASL (Average Shot Length) and MSL (Median Shot Length).
+- **Privacy-First**: All video processing and AI analysis happen locally on your machine. Your media never leaves your device.
+- **AI-Enhanced**: Deep integration with industry-standard models like TransNetV2 and MovieNet for automated shot boundary and scale detection.
+- **Interactive Visualization**: Transform abstract visual data into interactive timelines, color fingerprints, and dynamic charts.
+
+## ✨ Features
+
+### 1. Automated Shot Detection & Rhythm Analysis
+Powered by **TransNetV2**, it automatically detects hard cuts and transitions.
+- Calculates ASL and MSL automatically.
+- Generates cutting density charts to quantify cinematic rhythm.
+
+![Shot Detection](assets/shot-detection.png)
+
+### ### 2. Visual Feature Extraction
+Frame-by-frame analysis of physical video attributes.
+- **Brightness** & **Saturation** dynamic curves.
+- **Color Fingerprint**: A unique visual summary of the film's entire color palette.
+
+![Visual Analysis](assets/visual-analysis.png)
+
+### 3. Intelligent Shot Scale Classification
+Uses **MovieNet** to classify each shot into categories like Close-up, Medium, or Wide shots.
+- Statistical distribution of shot types across the entire video.
+- Helps analyze spatial narrative preferences.
+
+### 4. Interactive Finetuning & Export
+Finetune AI results and export data for professional workflows.
+- Export to standard EDL for PR/Final Cut.
+- Export detailed CSV reports for academic research.
+
+## 🧠 Technical Models
+
+| Model | Usage | Core Technology |
+| :--- | :--- | :--- |
+| **TransNetV2** | Shot Boundary Detection | Temporal Convolutional Network |
+| **MovieNet** | Shot Scale Classification | Industry-standard Shot-Scale model |
+| **Depth-Anything-V2** | Depth Estimation | Monocular Depth Estimation |
+| **ONNX Runtime** | Inference Acceleration | High-performance inference engine |
 
 ---
 
