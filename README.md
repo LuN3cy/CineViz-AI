@@ -97,14 +97,10 @@ Powered by **TransNetV2**, it automatically detects hard cuts and transitions.
 - Calculates ASL and MSL automatically.
 - Generates cutting density charts to quantify cinematic rhythm.
 
-![Shot Detection](assets/shot-detection.png)
-
 ### ### 2. Visual Feature Extraction
 Frame-by-frame analysis of physical video attributes.
 - **Brightness** & **Saturation** dynamic curves.
 - **Color Fingerprint**: A unique visual summary of the film's entire color palette.
-
-![Visual Analysis](assets/visual-analysis.png)
 
 ### 3. Intelligent Shot Scale Classification
 Uses **MovieNet** to classify each shot into categories like Close-up, Medium, or Wide shots.
