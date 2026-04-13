@@ -42,14 +42,10 @@
 - 自动计算平均镜头长度 (ASL) 和中位镜头长度 (MSL)。
 - 生成剪辑密度图表，量化视频节奏。
 
-![镜头检测界面](assets/shot-detection.png)
-
 ### 2. 视觉特征提取 (Visual Analysis)
 逐帧分析视频的物理属性，生成直观的视觉走势图。
 - **亮度 (Brightness)** 与 **饱和度 (Saturation)** 的动态分布曲线。
 - **色彩指纹 (Color Fingerprint)**: 将整部影片的色彩风格浓缩为一张独特的指纹图。
-
-![视觉分析界面](assets/visual-analysis.png)
 
 ### 3. 智能景别识别 (Shot Scale Classification)
 利用 **MovieNet** 模型，自动对每一个镜头进行景别分类（特写、中景、远景等）。
@@ -162,6 +158,7 @@ Finetune AI results and export data for professional workflows.
 - **Official Account 公众号**: [LuN3cy的实验房](https://mp.weixin.qq.com/s/1234567890abcdef12345)
 - **RED 小红书**: [LuN3cy](https://www.xiaohongshu.com/user/64f2f2000000000001000000)
 - **Bilibili**: [LuN3cy](https://space.bilibili.com/123456789)
+- **个人站**: [LuN3cy](https://lun3cy.top)
 
 ---
 
